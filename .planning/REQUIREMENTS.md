@@ -1,6 +1,6 @@
 # Requirements: Tooling Release Digest
 
-**Defined:** 2025-01-20
+**Defined:** 2026-03-17
 **Core Value:** Automatically filtering and alerting on high-value AI tooling updates via Telegram.
 
 ## v1 Requirements
@@ -60,5 +60,5 @@
 - Unmapped: 0 ✓
 
 ---
-*Requirements defined: 2025-01-20*
-*Last updated: 2025-01-20 after initial definition*
+*Requirements defined: 2026-03-17*
+*Last updated: 2026-03-17 after initial definition*

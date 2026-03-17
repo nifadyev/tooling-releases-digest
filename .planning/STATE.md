@@ -6,7 +6,7 @@
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2025-01-20)
+See: .planning/PROJECT.md (updated 2026-03-17)
 
 **Core value:** Automatically filtering and alerting on high-value AI tooling updates via Telegram.
 **Current focus:** Phase 1
@@ -32,4 +32,4 @@ See: .planning/PROJECT.md (updated 2025-01-20)
 - Single-agent manual workflow (no subagents)
 
 ---
-*Last updated: 2025-01-20*
+*Last updated: 2026-03-17*
