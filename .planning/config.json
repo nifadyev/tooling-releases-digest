@@ -3,7 +3,11 @@
   "granularity": "coarse",
   "parallelization": true,
   "commit_docs": true,
-  "model_profile": "inherit",
+  "model_profile": "quality",
+  "models": {
+    "primary": "google/gemini-3.1-pro-preview",
+    "fallback": "google/gemini-3-flash-preview"
+  },
   "workflow": {
     "research": true,
     "plan_check": true,
