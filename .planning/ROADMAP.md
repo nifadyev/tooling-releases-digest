@@ -12,6 +12,9 @@ Goal: Build a functional tool to monitor and alert on AI tooling releases via Te
 
 **Goal:** Establish the 12-factor foundation and core polling engine for GitHub releases.
 **Requirements:** CORE-01, CORE-02, CORE-03
+**Plans:** 2 plans
+- [ ] 01-01-PLAN.md — Foundation and Database
+- [ ] 01-02-PLAN.md — GitHub Polling Engine and CLI
 **Success Criteria:**
 1. Application can fetch latest releases from GitHub for a hardcoded list of projects.
 2. Application correctly identifies new releases using a local SQLite state.
