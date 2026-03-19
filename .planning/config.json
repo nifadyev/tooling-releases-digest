@@ -1,12 +1,16 @@
 {
   "mode": "interactive",
   "granularity": "coarse",
-  "parallelization": true,
+  "parallelization": false,
   "commit_docs": true,
-  "model_profile": "balanced",
-  "models": {
-    "primary": "google/gemini-3-flash-preview",
-    "fallback": "google/gemini-2.0-flash"
+  "model_profile": "inherit",
+  "model_overrides": {
+    "gsd-executor": "google/gemini-3-flash-preview",
+    "gsd-planner": "google/gemini-3.1-pro-preview",
+    "gsd-phase-researcher": "google/gemini-3.1-pro-preview",
+    "gsd-project-researcher": "google/gemini-3.1-pro-preview",
+    "gsd-research-synthesizer": "google/gemini-3-flash-preview",
+    "gsd-roadmapper": "google/gemini-3.1-pro-preview"
   },
   "workflow": {
     "research": true,

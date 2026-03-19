@@ -1,5 +1,8 @@
 # Tooling Release Digest
 
+<!-- TODO: choose specific tech stack and tools (for telegram api), uv venv create path, quality gate -->
+<!-- use python guidelines skill to validate plan -->
+<!-- run using qwen to validate final plan before implementing it -->
 ## What This Is
 
 An application that monitors tools, frameworks, and plugins for new releases, analyzes their changelogs, and alerts the user if an update is worth installing. The primary focus is AI tooling (e.g., opencode, qwen-code, superpowers, get-shit-done).
@@ -17,7 +20,7 @@ Automatically filtering and alerting on high-value AI tooling updates via Telegr
 ### Active
 
 - [ ] Polling GitHub releases for a manually defined list of projects and versions.
-- [ ] Ignoring nightly builds and non-major releases unless specified.
+- [ ] Ignoring nightly builds and patch releases unless specified.
 - [ ] Analyzing changelogs to determine if an update is "worth installing".
 - [ ] Sending notifications via a Telegram bot.
 - [ ] Manual overrides to skip analysis for specific tools.
@@ -29,7 +32,7 @@ Automatically filtering and alerting on high-value AI tooling updates via Telegr
 
 ## Context
 
-The project aims to be a lightweight, 12-factor application with minimal dependencies. It should integrate with the `pylines` skill for Python development standards.
+The project aims to be a lightweight, 12-factor application with minimal dependencies. It should integrate with the local `python-guidelines` skill for Python development standards.
 
 ## Constraints
 
@@ -44,7 +47,6 @@ The project aims to be a lightweight, 12-factor application with minimal depende
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
 | Core Stack: Python 3.13, msgspec, httpx, SQLite | Lightweight and performant defaults for the domain. | — Pending |
-| pylines skill integration | Enforcing high-quality Python code standards from the start. | — Pending |
 
 ---
-*Last updated: 2026-03-17 after initialization*
+*Last updated: 2026-03-18 manually*
