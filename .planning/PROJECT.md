@@ -37,16 +37,20 @@ The project aims to be a lightweight, 12-factor application with minimal depende
 ## Constraints
 
 - **Language**: Python 3.13 — Required for modern language features.
-- **Dependency**: Minimal — Use standard HTTP requests (httpx/niquests) instead of heavy GitHub API clients.
+- **Dependency**: Minimal — Use standard HTTP requests (httpx) instead of heavy GitHub API clients.
 - **Principles**: 12-factor app — Ensure portability and scalability.
 - **Database**: SQLite — Simple, local storage for tool state.
 - **Logging**: structlog — Structured logging for better observability.
+- **Linting**: Ruff (formatting, common rules) + flake8/wemake-python-styleguide (strict structural checks).
 
 ## Key Decisions
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Core Stack: Python 3.13, msgspec, httpx, SQLite | Lightweight and performant defaults for the domain. | — Pending |
+| Core Stack: Python 3.13, httpx, SQLite | Lightweight and performant defaults for the domain. | Accepted |
+| Linting: Ruff + flake8/WPS | Best of both worlds: speed and extreme strictness. | Accepted |
+| Dependency Management: uv | Fast, reliable, and handles dependency groups well. | Accepted |
+| Mocking: respx | Native and clean mocking for httpx. | Accepted |
 
 ---
 *Last updated: 2026-03-18 manually*
