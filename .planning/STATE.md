@@ -9,13 +9,13 @@
 See: .planning/PROJECT.md (updated 2026-03-17)
 
 **Core value:** Automatically filtering and alerting on high-value AI tooling updates via Telegram.
-**Current focus:** Phase 1
+**Current focus:** Phase 1 (Context gathered)
 
 ## Progress Overview
 
 | Phase | Status | Plans | Progress |
 |-------|--------|-------|----------|
-| 1     | ○      | 0/0   | 0%       |
+| 1     | ●      | 0/0   | 0%       |
 | 2     | ○      | 0/0   | 0%       |
 | 3     | ○      | 0/0   | 0%       |
 
@@ -28,8 +28,7 @@ See: .planning/PROJECT.md (updated 2026-03-17)
 ## Key Decisions
 
 - Core Stack: Python 3.13, msgspec, httpx, SQLite
-- pylines skill integration
 - Single-agent manual workflow (no subagents)
 
 ---
-*Last updated: 2026-03-17*
+*Last updated: 2026-03-18*
